@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Halaman Biodata</title>
+    <link rel="stylesheet" href="StyleCH%.css">
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: #e0f2f1; 
+            font-family: Arial, sans-serif;
+            color: #37474f; 
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Pemandangan</h1>
+        <ul>
+            <li>
+                <h2 id="video">Yang indah</h2>
+                <hr>
+                <video controls width="300" height="500" loop autoplay muted preload="auto">
+                    <source src="3571264-uhd_3840_2160_30fps.mp4.crdownload" type="video/mp4">
+                    
+                    <track kind="captions" src="subtitle.vtt" srclang="en" label="English">
+                </video>
+            </li>
+            <li>
+                <h2 id="audio">Audio Mountain</h2>
+                <hr>
+                <audio controls>
+                    <source src="mountain-path-125573.mp3" type="audio/mp3">
+                    
+                </audio>
+            </li>
+            <li>
+                <h2 id="gambar">Gambar Responsive</h2>
+                <hr>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="gambar_kecil.jpg">
+                    <source media="(max-width: 1200px)" srcset="gambar_sedang.jpg">
+                    <img src="gambar_besar.jpg" alt="pic 1" style="width: 100%;">
+                    
+                </picture>
+            </li>
+        </ul>
+    </center>
+    <script src="jsCH5.js"></script>
+</body>
+</html>
